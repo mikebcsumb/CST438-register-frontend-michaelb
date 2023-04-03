@@ -4,6 +4,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import SchedList from './components/SchedList';
 import Semester from './components/Semester';
+//import Student from './components/Student';
+import StudentList from './components/StudentList';
+
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -20,6 +23,7 @@ function App() {
        <Switch>
         <Route exact path='/' component={Semester} />
         <Route path='/schedule' component={SchedList} />
+		<Route path='/students' component={StudentList} />		
        </Switch>
       </BrowserRouter>
     </div>
