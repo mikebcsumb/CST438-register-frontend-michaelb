@@ -4,6 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import SchedList from './components/SchedList';
 import Semester from './components/Semester';
+import Admin from './components/Admin';
 //import Student from './components/Student';
 import StudentList from './components/StudentList';
 
@@ -23,7 +24,8 @@ function App() {
        <Switch>
         <Route exact path='/' component={Semester} />
         <Route path='/schedule' component={SchedList} />
-		<Route path='/students' component={StudentList} />		
+		<Route path='/students' component={StudentList} />	//maybe dont need this one. 
+		<Route path='/admin' component={Admin} />		
        </Switch>
       </BrowserRouter>
     </div>
