@@ -16,7 +16,7 @@ function App() {
       <AppBar position="static" color="default">
         <Toolbar>
            <Typography variant="h6" color="inherit">
-            Course Registration
+            Course Registration test
            </Typography>
         </Toolbar>
       </AppBar>
